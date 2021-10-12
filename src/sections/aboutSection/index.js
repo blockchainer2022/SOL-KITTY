@@ -1,24 +1,16 @@
 import React from "react";
-import Image1 from "../../assets/image/about1.png";
-import Image2 from "../../assets/image/about2.png";
-import Image3 from "../../assets/image/about3.png";
-import Image4 from "../../assets/image/about4.png";
-import Image5 from "../../assets/image/about5.png";
-import Image6 from "../../assets/image/about6.png";
-import Image7 from "../../assets/image/about7.png";
-import Image8 from "../../assets/image/about8.png";
+import Image1 from "../../assets/image/1.png";
+import Image2 from "../../assets/image/2.png";
+import Image3 from "../../assets/image/3.png";
+import Image4 from "../../assets/image/4.png";
+import Image5 from "../../assets/image/5.png";
+import Image6 from "../../assets/image/6.png";
+import Image7 from "../../assets/image/7.png";
+import Image8 from "../../assets/image/8.png";
+import Image9 from "../../assets/image/9.png";
+import Image10 from "../../assets/image/10.png";
 
-const images = [
-  Image1,
-  Image2,
-  Image3,
-  Image4,
-  Image5,
-  Image6,
-  Image6,
-  Image7,
-  Image8,
-];
+const images = [Image1, Image2, Image3, Image4, Image5, Image6, Image7, Image8];
 
 const Index = () => {
   return (
@@ -48,7 +40,10 @@ const Index = () => {
 
         <div className="flex mt-20 flex-wrap md:flex-nowrap">
           {images.map((v, i) => (
-            <div key={i} className="w-1/2 sm:w-1/4 md:w-1/6 lg:w-auto">
+            <div
+              key={i}
+              className="w-1/2 sm:w-1/4 md:w-1/6 lg:w-auto border-4 border-white"
+            >
               <img src={v} alt="" className="w-full" />
             </div>
           ))}
