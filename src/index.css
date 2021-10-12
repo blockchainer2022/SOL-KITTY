@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: "ArcadeClassic";
+    src: url(./assets/fonts/ARCADECLASSIC.woff) format("woff");
+  }
+}
