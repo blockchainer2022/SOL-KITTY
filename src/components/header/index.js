@@ -22,7 +22,7 @@ const Index = () => {
   return (
     <header className="flex justify-center">
       <div>
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="" className="w-full md:w-auto" />
       </div>
     </header>
   );
